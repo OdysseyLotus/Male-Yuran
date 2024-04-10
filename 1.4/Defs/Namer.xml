@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>Yuranpawn_rule_Female</defName>
+		<include>
+			<li>YuranpawnName</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=10)->[FemaleFirst] [Last]</li>
+				<li>r_name(p=3)->[FemaleFirst] '[Nickname]' [Last]</li>
+				<!--<li>r_name(p=2)->[FemaleFirst] '[Nickname]-[FemaleHonorific]' [Last]</li>-->
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>Yuranpawn_rule_Miko_Female</defName>
+		<include>
+			<li>YuranpawnName</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=4)->[FemaleFirstMiko] '[FemaleTitleMiko]' [LastMiko]</li>
+				<li>r_name(p=4)->[FemaleFirstMiko] '[FemaleTitleMiko]-[FemaleMikoHonorific]' [LastMiko]</li>
+				<li>r_name(p=4)->[FemaleFirstMiko] '[Prefix]-[FemaleTitleMiko]' [LastMiko]</li>
+				<li>r_name(p=1)->[FemaleFirstMiko] [LastMiko]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>Yuranpawn_rule_Male</defName>
+		<include>
+			<li>YuranpawnName</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=10)->[MaleFirst] [Last]</li>
+				<li>r_name(p=3)->[MaleFirst] '[Nickname]' [Last]</li>
+				<!--<li>r_name(p=2)->[MaleFirst] '[Nickname]-[MaleHonorific]' [Last]</li>-->
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>Yuranpawn_rule_Miko_Male</defName>
+		<include>
+			<li>YuranpawnName</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=4)->[MaleFirstMiko] '[MaleTitleMiko]' [LastMiko]</li>
+				<li>r_name(p=4)->[MaleFirstMiko] '[MaleTitleMiko]-[MaleMikoHonorific]' [LastMiko]</li>
+				<li>r_name(p=4)->[MaleFirstMiko] '[Prefix]-[MaleTitleMiko]' [LastMiko]</li>
+				<li>r_name(p=1)->[MaleFirstMiko] [LastMiko]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+  
+</Defs>

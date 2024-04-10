@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race"]/alienRace/generalSettings/alienPartGenerator/headTypes</xpath>
+		<value>
+			<li>YR_Male_AverageNormalAone</li>
+			<li>YR_Male_AverageNormalAtwo</li>
+			<li>YR_Male_AverageNormalAthree</li>
+			<li>YR_Male_AverageNormalAfour</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race_Miko"]/alienRace/generalSettings/alienPartGenerator/headTypes</xpath>
+		<value>
+			<li>YR_Male_AverageNormalAoneMiko</li>
+			<li>YR_Male_AverageNormalAtwoMiko</li>
+			<li>YR_Male_AverageNormalAthreeMiko</li>
+			<li>YR_Male_AverageNormalAfourMiko</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race_Miko_BlackSnake"]/alienRace/generalSettings/alienPartGenerator/headTypes</xpath>
+		<value>
+			<li>YR_Male_AverageNormalAtwoMiko_BlackSnake</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race"]/alienRace/generalSettings/alienPartGenerator/bodyTypes</xpath>
+		<value>
+			<li>Male</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race"]/alienRace/graphicPaths/body</xpath>
+		<value>
+			<body>Yuran/Yuranlike/Bodies/</body>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race_Miko"]/alienRace/graphicPaths/body</xpath>
+		<value>
+			<body>Yuran/Yuranlike/Bodies/</body>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]</xpath>
+		<value>
+			<genderGraphics>
+				<Male>Yuran/Yuranlike/AddonHair/Male/YR_hair</Male>
+			</genderGraphics>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]</xpath>
+		<value>
+			<genderGraphics>
+				<Male>Yuran/Yuranlike/AddonHair/Male/InHair/YR_hairA</Male>
+			</genderGraphics>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]</xpath>
+		<value>
+			<genderGraphics>
+				<Male>Yuran/Yuranlike/AddonHair/Male/SideHair/YR_hairB</Male>
+			</genderGraphics>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race"]/alienRace/graphicPaths</xpath>
+		<value>
+			<skinShader>Cutout</skinShader>
+		</value>
+	</Operation>
+	
+	<!-- Namers -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race"]/race/nameGenerator</xpath>
+		<value>
+			<nameGenerator>Yuranpawn_rule_Male</nameGenerator>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race"]/race/nameGeneratorFemale</xpath>
+		<value>
+			<nameGeneratorFemale>Yuranpawn_rule_Female</nameGeneratorFemale>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race_Miko"]/race/nameGenerator</xpath>
+		<value>
+			<nameGenerator>Yuranpawn_rule_Miko_Male</nameGenerator>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race_Miko"]/race/nameGeneratorFemale</xpath>
+		<value>
+			<nameGeneratorFemale>Yuranpawn_rule_Miko_Female</nameGeneratorFemale>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race_Miko_BlackSnake"]/race/nameGenerator</xpath>
+		<value>
+			<nameGenerator>Yuranpawn_rule_BlackSnake_Male</nameGenerator>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race_Miko_BlackSnake"]/race/nameGeneratorFemale</xpath>
+		<value>
+			<nameGeneratorFemale>Yuranpawn_rule_BlackSnake_Female</nameGeneratorFemale>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName="YuranpawnName"]/rulePack/rulesFiles</xpath>
+		<value>
+			<rulesFiles>
+				<li>FemaleFirst->Names/Yuran/FemaleFirst</li>
+				<li>Last->Names/Yuran/Last</li>
+				<li>MaleFirst->Names/Yuran/MaleFirst</li>
+				<li>Nickname->Names/Yuran/Nickname</li>
+				
+				<li>FemaleFirstMiko->Names/YuranMiko/FemaleFirst</li>
+				<li>FemaleTitleMiko->Names/YuranMiko/FemaleTitle</li>
+				<li>LastMiko->Names/YuranMiko/Last</li>
+				<li>MaleFirstMiko->Names/YuranMiko/MaleFirst</li>
+				<li>MaleTitleMiko->Names/YuranMiko/MaleTitle</li>
+				
+				<li>FemaleFirstSnake->Names/YuranSnake/FemaleFirst</li>
+				<li>LastSnake->Names/YuranSnake/Last</li>
+				<li>MaleFirstSnake->Names/YuranSnake/MaleFirst</li>
+			</rulesFiles>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName="YuranpawnName"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>FemaleFirst->[FemaleFirst]</li>
+				<li>MaleFirst->[MaleFirst]</li>
+				<li>Nickname->[Nickname]</li>
+				<li>Last->[Last]</li>
+				<li>FemaleFirstMiko->[FemaleFirstMiko]</li>
+				<li>FemaleTitleMiko->[FemaleTitleMiko]</li>
+				<li>LastMiko->[LastMiko]</li>
+				<li>MaleFirstMiko->[MaleFirstMiko]</li>
+				<li>MaleTitleMiko->[MaleTitleMiko]</li>
+				<li>FemaleFirstSnake->[FemaleFirstSnake]</li>
+				<li>LastSnake->[LastSnake]</li>
+				<li>MaleFirstSnake->[MaleFirstSnake]</li>
+				
+				<li>FemaleHonorific->san</li>
+				<li>FemaleHonorific->sama</li>
+				<li>FemaleHonorific->chan</li>
+				<li>FemaleHonorific->chin</li>
+				<li>FemaleHonorific->tan</li>
+				<li>FemaleHonorific->shi</li>
+				<li>FemaleHonorific->pi</li>
+				<li>FemaleHonorific->pyon</li>
+				<li>FemaleHonorific->me</li>
+				<li>FemaleHonorific->senpai</li>
+				<li>FemaleHonorific->kōhai</li>
+				<li>FemaleHonorific->sensei</li>
+				<li>FemaleHonorific->shishō</li>
+				<li>FemaleHonorific->hakase</li>
+				<li>FemaleHonorific->tama</li>
+				<li>FemaleHonorific->chama</li>
+				
+				<li>MaleHonorific->san</li>
+				<li>MaleHonorific->sama</li>
+				<li>MaleHonorific->kun</li>
+				<li>MaleHonorific->bō</li>
+				<li>MaleHonorific->bōzu</li>
+				<li>MaleHonorific->shi</li>
+				<li>MaleHonorific->pi</li>
+				<li>MaleHonorific->pyon</li>
+				<li>MaleHonorific->me</li>
+				<li>MaleHonorific->senpai</li>
+				<li>MaleHonorific->kōhai</li>
+				<li>MaleHonorific->sensei</li>
+				<li>MaleHonorific->shishō</li>
+				<li>MaleHonorific->hakase</li>
+				<li>MaleHonorific->tama</li>
+				<li>MaleHonorific->chama</li>
+				
+				<li>FemaleMikoHonorific->kakka</li>
+				<li>FemaleMikoHonorific->heika</li>
+				<li>FemaleMikoHonorific->denka</li>
+				<li>FemaleMikoHonorific->hidenka</li>
+				<li>FemaleMikoHonorific->hime</li>
+				<li>FemaleMikoHonorific->kimi</li>
+				<li>FemaleMikoHonorific->gimi</li>
+				<li>FemaleMikoHonorific->ue</li>
+				<li>FemaleMikoHonorific->bōshi</li>
+				<li>FemaleMikoHonorific->shinpu</li>
+				<li>FemaleMikoHonorific->bokushi</li>
+				<li>FemaleMikoHonorific->jō</li>
+				<li>FemaleMikoHonorific->ōjo</li>
+				<li>FemaleMikoHonorific->gozen</li>
+				
+				<li>MaleMikoHonorific->dono</li>
+				<li>MaleMikoHonorific->kakka</li>
+				<li>MaleMikoHonorific->heika</li>
+				<li>MaleMikoHonorific->denka</li>
+				<li>MaleMikoHonorific->ō</li>
+				<li>MaleMikoHonorific->ōji</li>
+				<li>MaleMikoHonorific->ue</li>
+				<li>MaleMikoHonorific->kimi</li>
+				<li>MaleMikoHonorific->gimi</li>
+				<li>MaleMikoHonorific->bōshi</li>
+				<li>MaleMikoHonorific->shinpu</li>
+				<li>MaleMikoHonorific->bokushi</li>
+				
+				<li>Prefix->O</li>
+				<li>Prefix->Go</li>
+			</rulesStrings>
+		</value>
+	</Operation>
+	
+	<!-- Backstories -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[@Name="YuranBackStory"]/bodyTypeMale</xpath>
+		<value>
+			<bodyTypeMale>Male</bodyTypeMale>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[@Name="YuranBackStoryMiko"]/bodyTypeMale</xpath>
+		<value>
+			<bodyTypeMale>Male</bodyTypeMale>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[@Name="YuranBackStory"]/maleCommonality</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[@Name="YuranBackStoryMiko"]/maleCommonality</xpath>
+	</Operation>
+
+</Patch>

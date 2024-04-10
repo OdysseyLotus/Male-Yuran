@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Bases -->
+
+  <HeadTypeDef ParentName="YR_MaleHeadtypeBase">
+    <defName>YR_Male_AverageNormalAone</defName>
+    <graphicPath>Yuran/Yuranlike/Heads/Male_YR_head1</graphicPath>
+  </HeadTypeDef>
+  
+  <HeadTypeDef ParentName="YR_MaleHeadtypeBase">
+    <defName>YR_Male_AverageNormalAtwo</defName>
+    <graphicPath>Yuran/Yuranlike/Heads/Male_YR_head2</graphicPath>
+  </HeadTypeDef>
+  
+  <HeadTypeDef ParentName="YR_MaleHeadtypeBase">
+    <defName>YR_Male_AverageNormalAthree</defName>
+    <graphicPath>Yuran/Yuranlike/Heads/Male_YR_head3</graphicPath>
+  </HeadTypeDef>
+  
+  <HeadTypeDef ParentName="YR_MaleHeadtypeBase">
+    <defName>YR_Male_AverageNormalAfour</defName>
+    <graphicPath>Yuran/Yuranlike/Heads/Male_YR_head4</graphicPath>
+  </HeadTypeDef>
+  
+  
+  <HeadTypeDef ParentName="YR_MaleHeadtypeBase">
+    <defName>YR_Male_AverageNormalAoneMiko</defName>
+    <graphicPath>Yuran/Yuranlike/Heads/Miko/Male_YR_head1</graphicPath>
+  </HeadTypeDef>
+  
+  <HeadTypeDef ParentName="YR_MaleHeadtypeBase">
+    <defName>YR_Male_AverageNormalAtwoMiko</defName>
+    <graphicPath>Yuran/Yuranlike/Heads/Miko/Male_YR_head2</graphicPath>
+  </HeadTypeDef>
+  
+  <HeadTypeDef ParentName="YR_MaleHeadtypeBase">
+    <defName>YR_Male_AverageNormalAthreeMiko</defName>
+    <graphicPath>Yuran/Yuranlike/Heads/Miko/Male_YR_head3</graphicPath>
+  </HeadTypeDef>
+  
+  <HeadTypeDef ParentName="YR_MaleHeadtypeBase">
+    <defName>YR_Male_AverageNormalAfourMiko</defName>
+    <graphicPath>Yuran/Yuranlike/Heads/Miko/Male_YR_head4</graphicPath>
+  </HeadTypeDef>
+
+</Defs>

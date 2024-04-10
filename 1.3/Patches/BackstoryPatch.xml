@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a craftsman who made toys out of stalks and branches, petals and fruits. Every day, [PAWN_pronoun] cut down bamboo stalks with a knife and made toy horses, tops, and dolls, and would give them to [PAWN_possessive] friends.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CA"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a craftsman who made toys out of stalks and branches, petals and fruits. Every day, [PAWN_pronoun] cut down bamboo stalks with a knife and made toy horses, tops, and dolls, and would give them to [PAWN_possessive] friends.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CB"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] delivered water to soldiers on the battlefield as a child. [PAWN_pronoun] followed the battlefields of foreign armies and made money by delivering water and mail, but this would often put [PAWN_pronoun] in danger.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CC"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a young solicitor who announced and promoted a theater's shows to passersby. [PAWN_nameDef] became so well-known for [PAWN_pronoun] ability to sell tickets to strangers that [PAWN_pronoun] was hired by street food vendors during shrine festivals to attract customers to their stalls.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CCB"]/baseDescription</xpath>
+		<value>
+			<baseDescription>The family of [PAWN_nameDef] ran a famous restaurant in [PAWN_possessive] hometown. Despite its popularity, the restaurant was seemingly always understaffed. [PAWN_nameDef] learned to cook from an early age to help [PAWN_possessive] parents.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CD"]/baseDescription</xpath>
+		<value>
+			<baseDescription>Attending the school attached to the local shrine, [PAWN_nameDef] vastly preferred reading over listening to [PAWN_possessive] teachers. [PAWN_pronoun] read books about every subject [PAWN_pronoun] could find, from theology to engineering to biographies to novels, but [PAWN_pronoun] was always thirsty for more knowledge.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CE"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was orphaned from a young age. To earn [PAWN_objective]self a place to sleep, [PAWN_pronoun] carried food and water to miners and helped unload mine carts. This was the only life that [PAWN_pronoun] knew.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CF"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a fruit-gatherer who traveled among mountains, fields, valleys, and forests. Occasionally, [PAWN_pronoun] would dig up mushrooms and forage for herbs. From a young age, [PAWN_pronoun] did well for [PAWN_objective]self.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CG"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a student at a boarding school. While this may seem rather ordinary to any outsider, most yurans can't afford such schools or are ineligble to attend, so [PAWN_nameDef] was considered elite among [PAWN_possessive] peers in [PAWN_possessive] hometown.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CH"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] hated being out and about. So [PAWN_pronoun] tried to study at home, but [PAWN_pronoun] couldn't make [PAWN_objective]self focus. One day, [PAWN_pronoun] decided to join a friend who worked in the mines, and [PAWN_pronoun] realized that that was [PAWN_possessive] calling.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CI"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] had a talent for drawing and used to make a living drawing portraits of [PAWN_possessive] fellow villagers and yurans. As [PAWN_pronoun] honed [PAWN_possessive] talent, [PAWN_nameDef] even taught other children how to draw.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CJ"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was one of many orphans who ended up at one of the yuran shrines. These yuran shrines act as a public welfare institution, taking in and educating orphans, feeding the homeless, and offering guidance to troubled souls.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CJB"]/baseDescription</xpath>
+		<value>
+			<baseDescription>When the drug was made to order at [PAWN_nameDef]'s family pharmacy, [PAWN_pronoun] would give the orders to [PAWN_possessive] parents and deliver the medicine to the customers. [PAWN_pronoun] also sold over-the-counter medicines to villagers when they needed it.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CK"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] took care of carrier pigeons, a traditional form of long-distance communication between Yuran settlements. [PAWN_pronoun] was tasked with cleaning them and their cages, feeding them, and tying the messages to their feet. [PAWN_nameDef] treated the pigeons so well that they would only respond to [PAWN_objective].</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CL_A"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] grew up in a well-to-do family and never had much manual labor. However, [PAWN_pronoun] made sure that [PAWN_pronoun] excelled in other places.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CL_B"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] grew up in a well-to-do family and never had much manual labor. However, [PAWN_pronoun] made sure that [PAWN_pronoun] excelled in other places.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CL_C"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] grew up in a well-to-do family and never had much manual labor. However, [PAWN_pronoun] made sure that [PAWN_pronoun] excelled in other places.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CN"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a clever child... or so [PAWN_pronoun] told [PAWN_objective]self. [PAWN_pronoun] never did quite catch all the teasing from the other kids.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CMB"]/baseDescription</xpath>
+		<value>
+			<baseDescription>An unusual child, [PAWN_nameDef] enjoyed collecting stones from the streets. Occasionally, [PAWN_pronoun] managed to find a ring or jewel dropped by passersby. Eventually, that became all [PAWN_pronoun] looked for.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CM"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef]'s bug catching skills were superior to everyone else's. Once, a dragonfly, a stag beetle, and even a firefly were all at once captured by this yuran's strong, fast rabbit punch (according to [PAWN_nameDef]).</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CO"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a child guarding [PAWN_possessive] parents' rice paddy fields. Unfortunately, [PAWN_pronoun] was only a small child among big fields, and had a difficult time fending off the wild animals.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CP"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] grew up hammering away in [PAWN_possessive] parents' smithy since [PAWN_pronoun] could hold a mallet. Even at a young age, the skills [PAWN_pronoun] inherited from [PAWN_possessive] parents awed those around [PAWN_objective].</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_CQ"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a child who ran errands at a hot springs bath. The hot springs in [PAWN_possessive] hometown, which are visited by many guests, were a good resting place to warm the mind and body, a rare treat on the barren frontier.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_B"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef], a physician, has extensive medical knowledge. Although it is a method based on traditional folk remedies, not scientific advancements, the medicine of [PAWN_nameDef] has been of great help to many people.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AA"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef], a physician, has extensive medical knowledge. Although it is a method based on traditional folk remedies, not scientific advancements, the medicine of [PAWN_nameDef] has been of great help to many people.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AB"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was skilled in the arts of assassination and crafting, ninjutsu and shooting. [PAWN_pronoun] was one in a clan of mysterious, agile members. There will be no one who can stand against those who seep into the darkness and engage in guerrilla warfare.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AC"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was an armed warrior who was tasked with defending [PAWN_possessive] village. Although most yurans don't care for violence, for the sake of peace in their hometown, these samurai do not back down and don't hesitate to cut down their enemies. Samurai like [PAWN_nameDef] are the most powerful sword that protects yurans.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AD"]/baseDescription</xpath>
+		<value>
+			<baseDescription>Making traditional sake takes a lot of effort. [PAWN_nameDef] ran a small local brewery, dedicated to washing, fermenting, and bottling the harvested rice to drink later.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AE"]/baseDescription</xpath>
+		<value>
+			<baseDescription>When the cherries are harvested, the good ones are used for ceremonial purposes, but the leftover cherries are also used to make sweets. The confections made by [PAWN_nameDef] were popular for their gorgeous appearance and sweet taste.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AF"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] is a craftsman who makes traditional clothes for yurans. Tired of making ceremonial clothes and fancy clothes [PAWN_possessive] entire career, [PAWN_nameDef] left the palace [PAWN_pronoun] was employed at to start a new store in a more humble village.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AG"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a rakugo performer, who sat in front of the audience and performed comedy sketches with a few props. With the advent of the television and the computer, rakugo is less popular these days, but [PAWN_nameDef] is happy to perform for tourist coming to yuran villages to see the culture.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AGB"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] gets busy when it's time to make dumplings from the grain harvested in the fall. The dumplings were one of yurans' favorite snacks, and it was [PAWN_nameDef]'s duty to satisfy the people's desires.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AH"]/baseDescription</xpath>
+		<value>
+			<baseDescription>Ice candy, foreign snacks, junk food, ramune and so on. [PAWN_nameDef] set up a hole-in-the-wall shop in a remote yuran village, where all kinds of imported foreign favorites were gathered and sold. Both the poor villagers and the wealthy nobles always looked for outside goods in [PAWN_possessive] corner store.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AI"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef], who taught traditional etiquette and culture, was a very boring teacher. Very active, young yuran children, who get antsy from sitting for long periods of time, would often skip [PAWN_nameDef]'s class.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AJ"]/baseDescription</xpath>
+		<value>
+			<baseDescription>Many yuran longed for a simple life, and wanted to settle down at a shrine and to serve the mikos and the gods, and [PAWN_nameDef] was one of them. [PAWN_pronoun] took care of the shrine's flowers and grasses, swept leaves, and repaired and maintained the shrine. [PAWN_pronoun] also helped the mikos run the local festivals when things got busy.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AK"]/baseDescription</xpath>
+		<value>
+			<baseDescription>Agriculture is central to yuran civilization. [PAWN_nameDef]'s knowledge and experience as a farmer was of great help to their village, as they depended on [PAWN_possessive] crops.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AL"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] decided to settle down from [PAWN_possessive] life as a wandering warrior and started gathering resources to build [PAWN_possessive] own store. Unfortunately, [PAWN_possessive] efforts were interrupted before the store was ever opened.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AM"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was an oil dealer who carried and sold animal fats and vegetable oils. People would complain about the rising prices, but well, what would people do without [PAWN_nameDef]?</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AN"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a wandering rogue who stole from carriages and carts going between villages. Although [PAWN_pronoun] always lived the life of a wanderer, [PAWN_pronoun] had a dream that one day [PAWN_pronoun] would be able to settle down and find a good companion.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AO"]/baseDescription</xpath>
+		<value>
+			<baseDescription>For yurans, their soft, white fur is a symbol of beauty. [PAWN_nameDef] developed a hair care secret based on [PAWN_possessive] own trial and error, earning the envy of many of [PAWN_pronoun] peers.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AP"]/baseDescription</xpath>
+		<value>
+			<baseDescription>Although some mechanical mills have been installed in yuran villages recently, many have fallen into disrepair, but [PAWN_nameDef]'s mill was relied on by the local villagers. Everyone had to come to [PAWN_possessive] mill to turn their harvested grain into flour.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AQ"]/baseDescription</xpath>
+		<value>
+			<baseDescription>The spoons and chopsticks made by [PAWN_nameDef] were beautifully handicrafted, carved from cherry wood and delicately painted. While they could be used to eat with, these utensils were more often than not decorative. When foreigners visited [PAWN_pronoun] village, they would buy them as gifts or souvenirs.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AR"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a puppeteer who traveled between settlements and villages. [PAWN_pronoun] would use puppets on sticks, a thin sheet of paper, and a lantern to cast shadows and tell stories. [PAWN_nameDef]'s arrival became a great spectacle for young yurans and people in rural villages who had little entertainment, and [PAWN_pronoun] would often receive a lot of money (or rotten tomatoes).</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AS"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was the bellringer who struck the shrine bell to announce the beginning and end of festivals. During the time between festivals, [PAWN_pronoun] would play instrumental bells for money.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_ATB"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was an innovator, who came up with some of the first yuran advertisements. [PAWN_pronoun] drew various pictures with a brush on a large wooden board and wrote slogans to promote products. These proved to be successful, and many shops in the surrounding region contracted [PAWN_nameDef] to make advertisements for their stores.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AT"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a skilled shamisen player who played the music that the Utahimes danced to. [PAWN_pronoun] was never the main character of the performances, but after the show, when no one was around, [PAWN_pronoun] would try dancing in pretty clothes like the Utahimes.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AU"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was one of the few wooden construction specialists in [PAWN_possessive] village. Nails and hammers were [PAWN_possessive] friends, and [PAWN_pronoun] honed [PAWN_possessive] craftsmanship to the highest level. The skill to flatten a cheeky guy's head with a hammer was also very much appreciated.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AW"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a hunter. Although yurans are generally herbivorous, yurans still some vitamins and nutrients from meat, so a hunter like [PAWN_nameDef] is a must-have in any village.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AX"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a weaver. Weavers like [PAWN_objective] could only weave so fast and there was a lot of demand in the village. But recent advancements in technology has automated weaving, many weavers like [PAWN_nameDef] have lost their jobs.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_AY"]/baseDescription</xpath>
+		<value>
+			<baseDescription>Being a dyer was not an easy job. If fruits, minerals, animal products are collected, ground, boiled, and processed, and stored for a long time in a barrel, a dye would be created. [PAWN_nameDef] had a dream of opening [PAWN_possessive] own dye workshop someday.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_Miko_CA"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef], who became an apprentice miko early in [PAWN_possessive] childhood, was a troublemaker who always rotted the minds of [PAWN_possessive] peers due to [PAWN_possessive] lively and mischievous personality. Unfortunately, while [PAWN_pronoun] once had a lovely childhood like other children, [PAWN_pronoun] eventually had to give up on [PAWN_possessive] miko training for a while.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_Miko_CB"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was always a lonely child. As an apprentice miko, [PAWN_pronoun] had to train to become a miko without being able to get along with other children [PAWN_possessive] own age.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_Miko_CC"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was born with an innate talent to talk to others. But for [PAWN_objective], that great power was a blessing and a curse, as it tended to bring [PAWN_possessive] a reputation of a silver-tongued rapscallion.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_Miko_CD"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a child who loves archery and was influenced by [PAWN_possessive] father, who was a hunter. As an apprentice miko, [PAWN_pronoun] doesn't have many opportunities to use a bow, but [PAWN_pronoun] still managed to hone [PAWN_possessive] excellent bow skills.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_Miko_CE"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef], who has always been behind others due to lack of talent, was a hard worker who had grown to success through constant training and practice.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_Miko_CF"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was late to start [PAWN_possessive] training to become a miko because [PAWN_possessive] parents were reluctant to let their child follow the same path as themselves. Although [PAWN_pronoun] lagged behind [PAWN_possessive] peers in the beginning, [PAWN_pronoun] overcame the difficult miko training process with her cheerful personality.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_Miko_AA"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was an inexperienced junior miko. [PAWN_pronoun] was responsible for mopping the shrine floors, raking the leaves, and fetching water from the well.\nBut the event that [PAWN_pronoun] looked forward to the most were the festivals. [PAWN_pronoun] considered helping the mikos prepare for the festival to be [PAWN_possessive] favorite task.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_Miko_AB"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a miko skilled in medicine. As a miko, [PAWN_pronoun] helped heal the body and mind of various believers who rested at the shrine and the sick who came from afar. No one was turned away from [PAWN_possessive] care.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_Miko_AC"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a miko who was much loved by visitors to the shrine. [PAWN_possessive] kindness and affectionate nature always made people's hearts skip a beat.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_Miko_AD"]/baseDescription</xpath>
+		<value>
+			<baseDescription>Unlike most mikos, [PAWN_nameDef] enjoyed fighting. [PAWN_pronoun] did not tolerate injustice and did not avoid fights in combating it. [PAWN_possessive] dignified appearance scared many would-be vandals.</baseDescription>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[defName="Yuran_BS_Miko_AE"]/baseDescription</xpath>
+		<value>
+			<baseDescription>[PAWN_nameDef] was a miko who worshipped the gods. [PAWN_pronoun] was a miko of the flowers and was revered as a sage deity who brought beauty, fertility, and prosperity, along with [PAWN_possessive] fellow mikos. [PAWN_nameDef]'s village, home to the Shrine of Flowers, has always been famous for its abundance and beauty.</baseDescription>
+		</value>
+	</Operation>
+
+</Patch>

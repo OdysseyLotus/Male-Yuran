@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>MaleYuran</modId>
+		<key>MaleYuranProbSlider</key>
+		<defaultValue>0.5</defaultValue>
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race"]/alienRace/generalSettings/maleGenderProbability</xpath>
+				<value>
+					<maleGenderProbability>{MaleYuranProbSlider}</maleGenderProbability>
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+	
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>MaleYuran</modId>
+		<key>MaleYuranMikoProbSlider</key>
+		<defaultValue>0.5</defaultValue>
+		<apply>
+			<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race_Miko"]/alienRace/generalSettings</xpath>
+				<value>
+					<maleGenderProbability>{MaleYuranMikoProbSlider}</maleGenderProbability>
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+	
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>MaleYuran</modId>
+		<key>MaleYuranSnakeProbSlider</key>
+		<defaultValue>0.5</defaultValue>
+		<apply>
+			<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race_Miko_BlackSnake"]/alienRace/generalSettings</xpath>
+				<value>
+					<maleGenderProbability>{MaleYuranSnakeProbSlider}</maleGenderProbability>
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+
+</Patch>
