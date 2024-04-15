@@ -8,6 +8,7 @@
 		<li>1.5</li>
 	</supportedVersions>
 	<packageId>odysseylotus.maleyuran</packageId>
+	<url>https://github.com/OdysseyLotus/Male-Yuran</url>
 	<description>Adds male yurans, a new namer, and an updated English patch for the backstories.
 	
 Now, this one is a long time coming. I bit off quite a bit more than I had anticipated, but I managed. So, this time around, we got hair from Gloomy, adjusted in size and colored to match the regular yuran hairstyles. I added a new namer, with 791 first names and 182 surnames for regular yuran (I'll probably add more later) and 280 first names, 179 titles, and 220 surnames for yuran mikos (I did an absurd amount of research into the Japanese royal family to get these names). I also noticed a bit of weirdness with the English translation in the backstories, so I decided to do an updated patch for that. I might go and check up on the rest of the mod, but for now, this is the extent of my coverage.
