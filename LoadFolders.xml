@@ -17,7 +17,7 @@
 	<v1.5>
         <li>1.5</li>
 		<li>Common</li>
-		<!--<li IfModNotActive="imranfish.xmlextensions">Default</li>
-		<li IfModActive="imranfish.xmlextensions">Settings</li>-->
+		<li IfModActive="imranfish.xmlextensions">Settings</li>
+		<li IfModNotActive="imranfish.xmlextensions">Default</li>
     </v1.5>
 </loadFolders>
