@@ -1,0 +1,11 @@
+VanillaChange Folder
+Cloth15
+ADCloth8
+ADCloth9
+ADCloth9BO
+ADCloth9BP
+ADCloth9NB
+ADCloth9UB
+ADCloth10
+ADCloth10W
+Everything in BlackSnake other than cloth11 and outcloth3
