@@ -11,6 +11,22 @@
 		</value>
 	</Operation>
 	
+	<!--<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race"]/alienRace/graphicPaths/head/extendedGraphics</xpath>
+		<value>
+			<extendedGraphics>
+				<Hediff For="Ghoul" MayRequire="Ludeon.RimWorld.Anomaly">Yuran/Yuranlike/Heads/YR_headGH</Hediff>
+				<Age For="HumanlikeBaby">Yuran/Yuranlike/Heads/Female_YR_head</Age>
+				<Age MayRequire="cyanobot.toddlers" For="HumanlikeToddler">Yuran/Yuranlike/Heads/Female_YR_head</Age>
+				<Age For="HumanlikeChild">Yuran/Yuranlike/Heads/Female_YR_head</Age>
+				<Age For="HumanlikeTeenager">Yuran/Yuranlike/Heads/Female_YR_head</Age>
+				<Age For="HumanlikeTeenager_Yuran">Yuran/Yuranlike/Heads/Female_YR_head</Age>
+				<Age For="HumanlikeAdult">Yuran/Yuranlike/Heads/Female_YR_head</Age>
+				<Age For="HumanlikeAdult_Yuran">Yuran/Yuranlike/Heads/Female_YR_head</Age>
+			</extendedGraphics>
+		</value>
+	</Operation>-->
+	
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race_Miko"]/alienRace/generalSettings/alienPartGenerator/headTypes</xpath>
 		<value>
@@ -20,6 +36,22 @@
 			<li>YR_Male_AverageNormalAfourMiko</li>
 		</value>
 	</Operation>
+	
+	<!--<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race_Miko"]/alienRace/graphicPaths/head/extendedGraphics</xpath>
+		<value>
+			<extendedGraphics>
+				<Hediff For="Ghoul" MayRequire="Ludeon.RimWorld.Anomaly">Yuran/Yuranlike/Heads/Miko/YR_headGH</Hediff>
+				<Age For="HumanlikeBaby">Yuran/Yuranlike/Heads/Miko/</Age>
+				<Age MayRequire="cyanobot.toddlers" For="HumanlikeToddler">Yuran/Yuranlike/Heads/Miko/</Age>
+				<Age For="HumanlikeChild">Yuran/Yuranlike/Heads/Miko/</Age>
+				<Age For="HumanlikeTeenager">Yuran/Yuranlike/Heads/Miko/</Age>
+				<Age For="HumanlikeTeenager_Yuran">Yuran/Yuranlike/Heads/Miko/</Age>
+				<Age For="HumanlikeAdult">Yuran/Yuranlike/Heads/Miko/</Age>
+				<Age For="HumanlikeAdult_Yuran">Yuran/Yuranlike/Heads/Miko/</Age>
+			</extendedGraphics>
+		</value>
+	</Operation>-->
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race_Miko_BlackSnake"]/alienRace/generalSettings/alienPartGenerator/headTypes</xpath>
@@ -32,20 +64,87 @@
 		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race"]/alienRace/generalSettings/alienPartGenerator/bodyTypes</xpath>
 		<value>
 			<li>Male</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
 		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race"]/alienRace/graphicPaths/body</xpath>
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race"]/alienRace/graphicPaths/body/extendedGraphics</xpath>
 		<value>
-			<body>Yuran/Yuranlike/Bodies/</body>
+			<extendedGraphics>
+				<BodyType For="Male">Yuran/Yuranlike/Bodies/BlackSnake/Naked_Male</Male>
+				<BodyType For="Thin">Yuran/Yuranlike/Bodies/BlackSnake/Naked_Thin</Thin>
+				<BodyType For="Child" MayRequire="Ludeon.RimWorld.Biotech">Yuran/Yuranlike/Bodies/Naked_Child</Child>
+				<BodyType For="Toddler" MayRequire="cyanobot.toddlers" >Yuran/Yuranlike/Bodies/Naked_Baby</Toddler>
+				<BodyType For="Baby" MayRequire="Ludeon.RimWorld.Biotech">Yuran/Yuranlike/Bodies/Naked_Baby</Baby>
+				<Hediff For="Ghoul" MayRequire="Ludeon.RimWorld.Anomaly">
+					<path>Yuran/Yuranlike/Bodies/Ghoul/Naked_Thin</path>
+					<extendedGraphics>
+						<bodytypeGraphics>
+							<Male>Yuran/Yuranlike/Bodies/Ghoul/Naked_Male</Male>
+							<Thin>Yuran/Yuranlike/Bodies/Ghoul/Naked_Thin</Thin>
+							<Child>Yuran/Yuranlike/Bodies/Naked_ChildGH</Child>
+						</bodytypeGraphics>
+					</extendedGraphics>
+				</Hediff>
+			</extendedGraphics>
 		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race_Miko"]/alienRace/graphicPaths/body</xpath>
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race_Miko"]/alienRace/graphicPaths/body/extendedGraphics</xpath>
 		<value>
-			<body>Yuran/Yuranlike/Bodies/</body>
+			<extendedGraphics>
+				<Backstory For="Yuran_BS_Miko_AF">
+					<path>Yuran/Yuranlike/Bodies/TT/Naked_Thin</path>
+					<extendedGraphics>
+						<bodytypeGraphics>
+							<Male>Yuran/Yuranlike/Bodies/TT/Naked_Male</Male>
+							<Thin>Yuran/Yuranlike/Bodies/TT/Naked_Thin</Thin>
+						</bodytypeGraphics>
+					</extendedGraphics>
+				</Backstory>
+				<BodyType For="Male">Yuran/Yuranlike/Bodies/BlackSnake/Naked_Male</Male>
+				<BodyType For="Thin">Yuran/Yuranlike/Bodies/BlackSnake/Naked_Thin</Thin>
+				<BodyType For="Child" MayRequire="Ludeon.RimWorld.Biotech">Yuran/Yuranlike/Bodies/Naked_Child</Child>
+				<BodyType For="Toddler" MayRequire="cyanobot.toddlers" >Yuran/Yuranlike/Bodies/Naked_Baby</Toddler>
+				<BodyType For="Baby" MayRequire="Ludeon.RimWorld.Biotech">Yuran/Yuranlike/Bodies/Naked_Baby</Baby>
+				<Hediff For="Ghoul" MayRequire="Ludeon.RimWorld.Anomaly">
+					<path>Yuran/Yuranlike/Bodies/Ghoul/Naked_Thin</path>
+					<extendedGraphics>
+						<bodytypeGraphics>
+							<Male>Yuran/Yuranlike/Bodies/Ghoul/Naked_Male</Male>
+							<Thin>Yuran/Yuranlike/Bodies/Ghoul/Naked_Thin</Thin>
+							<Child>Yuran/Yuranlike/Bodies/Naked_ChildGH</Child>
+						</bodytypeGraphics>
+					</extendedGraphics>
+				</Hediff>
+			</extendedGraphics>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Yuran_Race_Miko_BlackSnake"]/alienRace/graphicPaths/body/extendedGraphics</xpath>
+		<value>
+			<extendedGraphics>
+				<BodyType For="Male">Yuran/Yuranlike/Bodies/BlackSnake/Naked_Male</Male>
+				<BodyType For="Thin">Yuran/Yuranlike/Bodies/BlackSnake/Naked_Thin</Thin>
+				<BodyType For="Child" MayRequire="Ludeon.RimWorld.Biotech">Yuran/Yuranlike/Bodies/Naked_Child</Child>
+				<BodyType For="Toddler" MayRequire="cyanobot.toddlers" >Yuran/Yuranlike/Bodies/Naked_Baby</Toddler>
+				<BodyType For="Baby" MayRequire="Ludeon.RimWorld.Biotech">Yuran/Yuranlike/Bodies/Naked_Baby</Baby>
+				<Hediff For="YR_decolorization">
+					<path>Yuran/Yuranlike/Bodies/Naked_Thin</path>
+					<extendedGraphics>
+						<bodytypeGraphics>
+							<Male>Yuran/Yuranlike/Bodies/Naked_Male</Male>
+							<Thin>Yuran/Yuranlike/Bodies/Naked_Thin</Thin>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">Yuran/Yuranlike/Bodies/Naked_Child</Child>
+							<Toddler MayRequire="cyanobot.toddlers" >Yuran/Yuranlike/Bodies/Naked_Baby</Toddler>
+							<Baby MayRequire="Ludeon.RimWorld.Biotech">Yuran/Yuranlike/Bodies/Naked_Baby</Baby>
+						</bodytypeGraphics>
+					</extendedGraphics>
+				</Hediff>
+			</extendedGraphics>
 		</value>
 	</Operation>
 	
